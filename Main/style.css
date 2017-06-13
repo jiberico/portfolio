@@ -1,0 +1,72 @@
+body{
+    background-image: url(Media/Images/Render.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+#cercle p{
+    text-shadow: 0 0 3px #000000;
+    position: relative;
+    top: 24%;
+}
+#cercle{
+    position: fixed;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 5px solid white;
+    opacity: 0.5;
+    transition: all 0.5s;
+    box-shadow: 0px 0px 15px black;
+    font-size: 0px;
+    text-align: center;
+    vertical-align: middle;
+    float: inherit;
+}
+#cercle:hover{
+    font-size: 8px;
+    transform: scale(5);
+    opacity: 1.0;
+    transition: all 0.25s;
+    border: 1px solid white;
+}
+.c1{
+    background-image: url(Media/Images/Thumbnails/lightArt.png);
+    background-size: 155%;
+    background-position: center;
+    top: 12%;
+    left: 52.5%;
+}
+.c2{
+    background-image: url(Media/Images/Thumbnails/Texture.png);
+    background-size: 200%;
+    background-position: center;
+    bottom: 12%;
+    left: 34%;
+}
+.c3{
+    background-image: url(Media/Images/Thumbnails/modelling.png);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 40%;
+    left: 48%;
+}
+.c4{
+    background-image: url(Media/Images/Thumbnails/webDesign.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    top: 20%;
+    right: 25%;
+}
+.c5{
+    background-image: url(Media/Images/Thumbnails/SocialM.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 32%;
+    left: 25%;
+}

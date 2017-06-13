@@ -1,0 +1,146 @@
+body{
+    background-color: black;
+}
+#Arrow{
+    display: inline-block;
+    background-image: url(Media/Images/backArrow.png);
+    background-size: 90% 70%;
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    width: 40px;
+    height: 40px;
+    transition: all 0.25s;
+    margin: 20px 40px;
+}
+#Arrow:hover{
+    background-image: url(Media/Images/selectedArrow.png);
+    background-size: 90% 70%;
+    background-repeat: no-repeat;
+    opacity: 0.76;
+    transition: all 0.25s;
+}
+.softwareContainer{
+    background-image: url(Media/Images/Logos/background.png);
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0px 250px;
+    padding-top: 100px;
+    height: 380px;
+}
+
+#software{
+    align-content: center;
+    display: inline-block;
+    margin: 20px 25px;
+    width: 200px;
+    height: 150px;
+}
+#software p{
+    margin: 4px auto;
+    color: white;
+    font-size: 1.4em;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+#workContainer{
+    background-image: url(Media/Images/Modellingwork/topTittle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    align-content: center;
+    display: inline-block;
+    padding-top: 170px;
+    text-align: center;
+    margin: 40px 0px;
+    width: 100%;
+    height: 100%;
+}
+#ModellingWorks{
+    box-shadow: 0 0 10px #505050;
+    margin: 10px 10px;
+    width: 33%;
+    transition: all 0.15s;
+}
+#ModellingWorks:hover{
+    transform: scale(1.75);
+    transition: all 0.35s;
+}
+#LightWorks{
+    box-shadow: 0 0 10px #505050;
+    margin: 10px 10px;
+    width: 70%;
+    transition: all 0.15s;
+}
+#LightWorks:hover{
+    transform: scale(1.20);
+    transition: all 0.35s;
+}
+#workContainerSm{
+    background-image: url(Media/Images/SocialMedia/socialMediaBck.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    align-content: center;
+    display: inline-block;
+    padding-top: 170px;
+    text-align: center;
+    margin: 40px 0px;
+    width: 100%;
+    height: 100%;
+}
+#socialMedia{
+    background-image: url(Media/Images/SocialMedia/socialMediaBck.png);
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0px 250px;
+    padding-top: 130px;
+}
+#socialMedia h1{
+    color: white;
+    font-size: 1.25em;
+    font-family:serif;
+    font-style:normal;
+}
+#socialMedia img:hover{
+    transform: scale(1.25);
+    transition: all 0.25s;
+}
+#socialMedia img{
+    transition: all 0.25s;
+}
+#socialMedia a{
+    text-decoration: none;
+}
+#ContactMe{
+    background-image: url(Media/Images/SocialMedia/contactMeBck.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 80px;
+    padding: 0px 0px;
+    padding-top: 130px;
+}
+#ContactMe p{
+    color: white;
+    font-family: serif;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 20%;
+}
+#WebWorks{
+    box-shadow: 0 0 10px #505050;
+    margin: 10px 10px;
+    width: 33%;
+    transition: all 0.15s;
+}
+#WebWorks:hover{
+    transform: scale(1.15);
+    transition: all 0.25s;
+}
